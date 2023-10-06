@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #fff; 
+}
+
+button {
+    background-color: #007BFF; 
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    color: #fff; 
+    padding: 15px 25px; 
+    font-size: 20px; 
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0153aa;
+    color: #fff;
+}
+
+h1 {
+    font-size: 80px; 
+    margin-bottom: 0;
+}
+
+.linea-decorativa {
+    border: 2px solid #007BFF; 
+    margin: 20px 0; 
+}
+
+h2 {
+    font-size: 40px; 
+    margin-top: 20px;
+}
