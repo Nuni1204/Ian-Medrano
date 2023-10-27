@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #3fa553;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: inline;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #3fa553;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8FCB9B;
+}
+
+#resultado {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #8FCB9B;
+}
+
+.boton-regresar {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3fa553;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-regresar:hover {
+    background-color: #8FCB9B;
+}
+
+@media (max-width: 768px) {
+    .boton-regresar {
+        font-size: 14px;
+        padding: 8px 16px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
